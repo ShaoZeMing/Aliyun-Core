@@ -26,14 +26,14 @@
 //Autoloader::loadDirectories();
 //config http proxy
 /**
- *
+ *定义代理静态常量，可外部设置
  */
-define('ENABLE_HTTP_PROXY', false);
+defined('ALIYUN_ENABLE_HTTP_PROXY') || define('ALIYUN_ENABLE_HTTP_PROXY', false);
 /**
  *
  */
-define('HTTP_PROXY_IP', '127.0.0.1');
+defined('ALIYUN_HTTP_PROXY_IP') || define('ALIYUN_HTTP_PROXY_IP', '127.0.0.1');
 /**
  *
  */
-define('HTTP_PROXY_PORT', '8888');
+defined('ALIYUN_HTTP_PROXY_PORT') || define('ALIYUN_HTTP_PROXY_PORT', '8888');
