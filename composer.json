@@ -11,6 +11,9 @@
     "autoload": {
         "psr-4": {
             "ShaoZeMing\\Aliyun\\Core\\": "./src/"
-        }
+        },
+        "files": [
+            "./src/Config.php"
+        ]
     }
 }
