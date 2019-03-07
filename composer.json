@@ -1,0 +1,16 @@
+{
+    "name": "shaozeming/aliyun-core",
+    "description": "基于阿里云api sdk core封装的composer组件包，便于shaozeming/aliyun-vod，shaozeming/aliyun-oss(开发中)，shaozeming/aliyun-ecs(开发中)加载,便于维护和即时跟新官方sdk,解决核心类名在项目中冲突的问题",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShaoZeMing",
+            "email": "szm19920426@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShaoZeMing\\Aliyun\\Core\\": "./src/"
+        }
+    }
+}
