@@ -19,7 +19,7 @@
  */
 namespace  ShaoZeMing\Aliyun\Core\Regions;
 
-$endpoint_filename = __DIR__ . DIRECTORY_SEPARATOR;
+$endpoint_filename = __DIR__ . DIRECTORY_SEPARATOR.'endpoints.xml';
 $xml               = simplexml_load_string(file_get_contents($endpoint_filename));
 $json              = json_encode($xml);
 $json_array        = json_decode($json, true);

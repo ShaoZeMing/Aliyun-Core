@@ -20,6 +20,8 @@
  */
 namespace  ShaoZeMing\Aliyun\Core\Http;
 
+use ShaoZeMing\Aliyun\Core\Exception\ClientException;
+
 class HttpHelper
 {
     /**
