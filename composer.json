@@ -8,6 +8,9 @@
             "email": "szm19920426@gmail.com"
         }
     ],
+    "require": {
+        "php":">=5.3"
+    },
     "autoload": {
         "psr-4": {
             "ShaoZeMing\\Aliyun\\Core\\": "./src/"
