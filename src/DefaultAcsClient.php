@@ -277,7 +277,7 @@ class DefaultAcsClient implements IAcsClient
     private function parseAcsResponse($body, $format)
     {
         if ('JSON' === $format) {
-            $respObject = json_decode($body);
+            $respObject = json_decode($body,true);
         } elseif ('XML' === $format) {
             $respObject = @simplexml_load_string($body);
         } elseif ('RAW' === $format) {
